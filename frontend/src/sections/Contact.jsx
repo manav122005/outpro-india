@@ -29,7 +29,7 @@ function Contact() {
     try {
 
       await axios.post(
-        "http://localhost:5000/api/contact",
+        "https://outpro-india-0uee.onrender.com/api/contact",
         formData
       );
 
