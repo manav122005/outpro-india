@@ -1,0 +1,28 @@
+:root {
+  --primary-red: #C1121F;
+  --accent-red: #E63946;
+  --dark-bg: #0D0D0D;
+  --light-bg: #F8F9FA;
+  --white-text: #eeeeea;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--dark-bg);
+  color: var(--white-text);
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+section {
+  padding: 100px 0;
+}
+.card-hover {
+  transition: all 0.4s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 40px rgba(193, 18, 31, 0.3);
+}

@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0B0B0B;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* ACTIVE NAV LINK */
+
+.active-nav {
+  color: white !important;
+  font-weight: 700;
+  border-bottom: 2px solid white;
+  padding-bottom: 6px;
+}
+
+/* ========================= */
+/* NAVBAR RESPONSIVE */
+/* ========================= */
+
+@media screen and (max-width: 992px) {
+
+  .desktop-menu {
+    display: none !important;
+  }
+
+  .desktop-btn {
+    display: none !important;
+  }
+
+  .mobile-icon {
+    display: block !important;
+  }
+
+}
+
+@media screen and (min-width: 993px) {
+
+  .mobile-icon {
+    display: none !important;
+  }
+
+}
+
+/* ========================= */
+/* GLOBAL MOBILE RESPONSIVE */
+/* ========================= */
+
+@media screen and (max-width: 768px) {
+
+  section {
+    padding-left: 6% !important;
+    padding-right: 6% !important;
+  }
+
+  h1 {
+    font-size: 42px !important;
+    line-height: 1.2 !important;
+  }
+
+  h2 {
+    font-size: 34px !important;
+    line-height: 1.2 !important;
+  }
+
+  h3 {
+    font-size: 24px !important;
+  }
+
+  p {
+    font-size: 15px !important;
+    line-height: 1.8 !important;
+  }
+
+  button {
+    width: 100%;
+  }
+
+}
+
+/* SMALL DEVICES */
+
+@media screen and (max-width: 480px) {
+
+  h1 {
+    font-size: 34px !important;
+  }
+
+  h2 {
+    font-size: 28px !important;
+  }
+
+}
