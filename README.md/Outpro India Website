@@ -1,0 +1,58 @@
+# Outpro India — Sports & Event Management Website
+
+A modern full-stack MERN website developed for Outpro India, focused on sports event management, brand activations, audience engagement, and premium event experiences.
+
+---
+
+# 🚀 Live Website
+
+Frontend:
+https://your-vercel-link.vercel.app
+
+Backend API:
+https://your-render-link.onrender.com
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+- React.js
+- Vite
+- Axios
+- React Icons
+- React Scroll
+
+## Backend
+- Node.js
+- Express.js
+- Mongoose
+- CORS
+- Body Parser
+
+## Database
+- MongoDB Atlas
+
+## Deployment
+- Vercel
+- Render
+- GitHub
+
+---
+
+# 📂 Project Structure
+
+outpro-india/
+│
+├── frontend/
+├── backend/
+├── README.md
+
+---
+
+# ⚙️ Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm run dev
