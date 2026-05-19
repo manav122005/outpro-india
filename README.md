@@ -48,6 +48,7 @@ outpro-india/
 ├── backend/
 ├── README.md
 
+
 ---
 
 # ⚙️ Frontend Setup
@@ -80,7 +81,7 @@ http://localhost:5000
 Create a `.env` file inside backend:
 
 ```env
-MONGO_URI=your_mongodb_connection_string
+MONGO_URI=mongodb+srv://manavrajeev05_db_user:outpro123@outpro-india.5ntifno.mongodb.net/outpro-india?retryWrites=true&w=majority&appName=outpro-india
 PORT=5000
 ```
 
