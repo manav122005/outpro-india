@@ -1,5 +1,4 @@
 const express = require("express");
-
 const router = express.Router();
 
 const Contact = require("../models/Contact");
@@ -8,22 +7,13 @@ router.post("/", async (req, res) => {
 
   try {
 
-    console.log(req.body);
-
-    const newContact = new Contact({
-      name: req.body.name,
-      email: req.body.email,
-      company: req.body.company,
-      message: req.body.message,
-    });
+    const newContact = new Contact(req.body);
 
     await newContact.save();
 
-    console.log("Saved Successfully");
-
-    res.status(201).json({
+    res.json({
       success: true,
-      message: "Inquiry Submitted Successfully",
+      message: "Enquiry submitted successfully",
     });
 
   } catch (error) {
@@ -32,7 +22,7 @@ router.post("/", async (req, res) => {
 
     res.status(500).json({
       success: false,
-      error: error.message,
+      message: "Server Error",
     });
 
   }
